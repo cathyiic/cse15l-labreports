@@ -4,7 +4,7 @@
 
 1. Download VSCode for your OS, in this report, I will be using a MAC OS.
         - Use this [link](https://code.visualstudio.com/download) to download VSCode
-       
+
 2. After you finish downloading VSCode, open the application. Your screen should look someting like this ![](vscode.png)
 
 
