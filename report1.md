@@ -30,7 +30,7 @@
 3. Here is an example of a file that you can use an example for moving files with scp. I created this file WhereAmiI.java. 
        
         
-        ```public class WhereAmI {
+        `public class WhereAmI {
                 public static void main(String[] args) {
                         System.out.println(System.getProperty("os.name"));
                         System.out.println(System.getProperty("user.name"));
