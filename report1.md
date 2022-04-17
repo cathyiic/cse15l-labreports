@@ -56,4 +56,7 @@
 
 **Optimizing Remote Running**
 
-1. From this tutorial and my experience in lab, the way that I optimized remote running the most was setting up the SSH Key. As I mentioned in the **Setting a SSH Key**, by settting up a SSH Key, we reduce the time that we spend entering in our passwords constantly. There are other ways to optimize the remote running; however, the ssh keygen is the only method that I have learned so far in CSE15L. 
+1. Some tips that I learned that were helpful in optimizing time was using the semi-colon so you would be able to run multiple commands in one line. This would prompt the commmands all on that one line to run at the same time, which saves a lot of time. (**;**)
+2. The **!!** command also helps by running the last unix command that you called. This saves time, so you don't need to type out the previous line all over again. 
+3. Another tip is using the up arrow on your keyboard. It allows you to see the last command that you call, which is similar to the "!!" command but both work well in optimizing the remote running !time(optimize.png)
+
