@@ -29,7 +29,7 @@
 2. You want to by entering **scp <file you would like to copy>** in your own local account. In my example here ![](scp.png), you can see that I want to copy over my file WhereAmI.java. It is going to prompt you to enter your password to youe ieng6 account just for vertification. So just enter your password. 
 3. Here is an example of a file that you can use an example for moving files with scp. I created this file WhereAmiI.java. 
         
-```public class WhereAmI {
+``` public class WhereAmI {
           public static void main(String[] args) {
                  System.out.println(System.getProperty("os.name"));
                  System.out.println(System.getProperty("user.name"));
