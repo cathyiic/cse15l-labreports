@@ -37,8 +37,7 @@
                         System.out.println(System.getProperty("user.home"));
                         System.out.println(System.getProperty("user.dir"));
                         }
-                }   
-        
+                }
         ```
 
 4. And just like that you have copied over a file. 
