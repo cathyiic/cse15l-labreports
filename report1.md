@@ -28,9 +28,9 @@
 1. The SCP unix command means secure copy protocol. This is where I mentioned in remotely connecting that splitting the terminal will be beneficial. You want to have your local account and the other for your ieng6 account. 
 2. You want to by entering **scp <file you would like to copy>** in your own local account. In my example here ![](scp.png), you can see that I want to copy over my file WhereAmI.java. It is going to prompt you to enter your password to youe ieng6 account just for vertification. So just enter your password. 
 3. Here is an example of a file that you can use an example for moving files with scp. I created this file WhereAmiI.java. 
+       
         
         ``` 
-        
         public class WhereAmI {
                 public static void main(String[] args) {
                         System.out.println(System.getProperty("os.name"));
@@ -38,8 +38,7 @@
                         System.out.println(System.getProperty("user.home"));
                         System.out.println(System.getProperty("user.dir"));
                         }
-                } 
-        
+                }        
         ```
 
 4. And just like that you have copied over a file. 
