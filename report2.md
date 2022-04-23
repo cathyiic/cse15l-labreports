@@ -28,3 +28,5 @@
     }
 }
 ```
+The issues here was that the code for the MarkdownParse class is faulty, so if our test file ended with an empty line, it would throw an OutOfMemoryError exception. Therefore, we had to change our test file to make sure that none of our test files ended with an empty line to avoid this bug from happening again.
+2. Another code change that we made 
