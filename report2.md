@@ -2,6 +2,7 @@
 
 **Three Code Changes That My Lab Group Worked On**
 1. One of the first issues that all of my members ran into when we working on Lab 3 was that the MarkdownParse class was throwing an IndexOutOfBounds exception or running an infinite loop. We consulted one of the tutors on this, and she instructed us that the code we wrote for the MarkdownParse class.
+
 ```public class MarkdownParse {
     public static ArrayList<String> getLinks(String markdown) {
         ArrayList<String> toReturn = new ArrayList<>();
@@ -28,6 +29,7 @@
     }
 }
 ```
+
 The issues here was that the code for the MarkdownParse class is faulty, so if our test file ended with an empty line, it would throw an IndexOutOfBounds exception. Therefore, we had to change our test file to make sure that none of our test files ended with an empty line to avoid this bug from happening again. Here is a screenshot of where the empty line in the test file was deleted in order to avoid the IndexOutOfBounds exception from my Github commit history.
 ![](space.png)
 Here is also the output symptom of that failure-inducing input that occurs when there is an empty extra line in our test file. 
