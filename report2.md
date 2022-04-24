@@ -1,6 +1,7 @@
 # Here is the Lab Report 2 Week 4
 
 **Three Code Changes That My Lab Group Worked On**
+
 -1.One of the first issues that all of my members ran into when we working on Lab 3 was that the MarkdownParse class was throwing an IndexOutOfBounds exception or running an infinite loop. We consulted one of the tutors on this, and she instructed us that the code we wrote for the MarkdownParse class.
 
 ```
