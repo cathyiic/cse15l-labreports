@@ -29,7 +29,7 @@
 }
 ```
 The issues here was that the code for the MarkdownParse class is faulty, so if our test file ended with an empty line, it would throw an IndexOutOfBounds exception. Therefore, we had to change our test file to make sure that none of our test files ended with an empty line to avoid this bug from happening again. Here is a screenshot of where the empty line in the test file was deleted in order to avoid the IndexOutOfBounds exception from my Github commit history.
-!(space.png)
+![](space.png)
 Here is also the output symptom of that failure-inducing input that occurs when there is an empty extra line in our test file. 
 !(index out of bounds.png)
 
@@ -38,9 +38,9 @@ Here is also the output symptom of that failure-inducing input that occurs when 
 ```[TWITTER](https://twitter.com```
 
 My group and I fixed this mistake by adding the parentheses at the end of the line. This fixed this symptom errror by adding the parentheses at the end of the line to ensure that our code from the MarkdownParse class will correctly run.
-!(breaking 1.png)
+![](breaking 1.png)
 Without fixing the bug, the test file would output an ArrayIndexOutOfBounds exception for us. Here is a screenshot of what the symptom would look like with the failure-inducing input. 
-!(no paren.png)
+![](no paren.png)
 
 3. Another code change that
 
