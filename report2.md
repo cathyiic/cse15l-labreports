@@ -1,7 +1,7 @@
 # Here is the Lab Report 2 Week 4
 
 **Three Code Changes That My Lab Group Worked On**
-1. One of the first issues that all of my members ran into when we working on Lab 3 was that the MarkdownParse class was throwing an IndexOutOfBounds exception or running an infinite loop. We consulted one of the tutors on this, and she instructed us that the code we wrote for the MarkdownParse class.
+-1.One of the first issues that all of my members ran into when we working on Lab 3 was that the MarkdownParse class was throwing an IndexOutOfBounds exception or running an infinite loop. We consulted one of the tutors on this, and she instructed us that the code we wrote for the MarkdownParse class.
 
 ```
 public class MarkdownParse {
@@ -36,7 +36,7 @@ The issues here was that the code for the MarkdownParse class is faulty, so if o
 Here is also the output symptom of that failure-inducing input that occurs when there is an empty extra line in our test file. 
 !(index out of bounds.png)
 
-2. Another code change that we made was if the test file, breaking.md, had an open parentheses. When linking the link in my breaking.md file, [](https://github.com/cathyiic/cse15l-labreports/blob/main/breaking%201.png) there was an open parentheses for 
+-2.Another code change that we made was if the test file, breaking.md, had an open parentheses. When linking the link in my breaking.md file, [](https://github.com/cathyiic/cse15l-labreports/blob/main/breaking%201.png) there was an open parentheses for 
 
 ```[TWITTER](https://twitter.com```
 
@@ -45,5 +45,5 @@ My group and I fixed this mistake by adding the parentheses at the end of the li
 Without fixing the bug, the test file would output an ArrayIndexOutOfBounds exception for us. Here is a screenshot of what the symptom would look like with the failure-inducing input. 
 ![](no paren.png)
 
-3. Another code change that
+-3.Another code change that
 
