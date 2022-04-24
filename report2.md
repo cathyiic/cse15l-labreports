@@ -28,9 +28,12 @@
     }
 }
 ```
-The issues here was that the code for the MarkdownParse class is faulty, so if our test file ended with an empty line, it would throw an OutOfMemoryError exception. Therefore, we had to change our test file to make sure that none of our test files ended with an empty line to avoid this bug from happening again. Here is a screenshot of where the empty line in the test file was 
+The issues here was that the code for the MarkdownParse class is faulty, so if our test file ended with an empty line, it would throw an OutOfMemoryError exception. Therefore, we had to change our test file to make sure that none of our test files ended with an empty line to avoid this bug from happening again. Here is a screenshot of where the empty line in the test file was deleted in order to avoid the OutOfMemoryError exception from my Github commit history.
+!(space.png)
+Here is also the output symptom of that failure-inducing input
+
 2. Another code change that we made was if the test file had an open parentheses. When linking the link in my breaking.md file, there was an open parentheses for 
 
 ```[TWITTER](https://twitter.com```
 
-My group and I fixed this mistake by
+My group and I fixed this mistake by adding the parentheses at the end of the line. This fixed the 
