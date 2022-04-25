@@ -49,4 +49,8 @@ Without fixing the bug, the test file would output an ArrayIndexOutOfBounds exce
 ![](no paren.png)
 
 -3.Another code change that my group and I made to a test file, [breaking2.md](https://github.com/cathyiic/cse15l-labreports/blob/main/breaking%202.md), was adding a bracket to the end of the file name, since the bracket was not closed. The bug once again was because of the code in the MarkdownParse class searching for both the open & close brackets. Since we have the failure-induced input in our breaking2.md file, we get the symptom of getting an error message when we try to run our code. This failure-inducing input causes this error to output this error into our terminal. Our code throws an ArrayIndexOutOfBounds exception for this as well. 
+Here is a screenshot of the commit changes that were made to our file to get rid of the symptom. 
+![](fixed bracket.png)
+Without fixing the bug, the test file would output an ArrayIndexOutOfBounds exception for us. Here is a screenshot of what the symptom would look like with the failure-inducing input. Here is a screenshot of what the symptom would look like with the failure-inducing input. 
+![](breaking 2.png)
 
