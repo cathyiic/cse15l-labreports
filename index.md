@@ -1,3 +1,5 @@
 **Links to my weekly lab reports**
 
-**[Week 2 CSE15 Lab Report](https://cathyiic.github.io/cse15l-labreports/report1.html)**
+**[Week 2 CSE15L Lab Report](https://cathyiic.github.io/cse15l-labreports/report1.html)**
+
+**[Week 4 CSE15L Lab Report](https://cathyiic.github.io/cse15l-labreports/report2.html)**
