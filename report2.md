@@ -2,7 +2,7 @@
 
 **Three Code Changes That My Lab Group Worked On**
 
--1.One of the first issues that all of my members ran into when we working on Lab 3 was that the MarkdownParse class was throwing an IndexOutOfBounds exception or running an infinite loop. We consulted one of the tutors on this, and she instructed us that the code we wrote for the MarkdownParse class.
+-**1.** One of the first issues that all of my members ran into when we working on Lab 3 was that the MarkdownParse class was throwing an IndexOutOfBounds exception or running an infinite loop. We consulted one of the tutors on this, and she instructed us that the code we wrote for the MarkdownParse class.
 
 ```
 public class MarkdownParse {
@@ -38,7 +38,7 @@ Here is a screenshot of where the empty line in the test file was deleted in ord
 Here is also the output symptom of that failure-inducing input that occurs when there is an empty extra line in our test file. 
 !(index out of bounds.png)
 
--2.Another code change that we made was if the test file, breaking.md, had an open parentheses. When linking the link in my breaking.md file, [](https://github.com/cathyiic/cse15l-labreports/blob/main/breaking%201.png) there was an open parentheses for 
+-**2.** Another code change that we made was if the test file, breaking.md, had an open parentheses. When linking the link in my breaking.md file, [](https://github.com/cathyiic/cse15l-labreports/blob/main/breaking%201.png) there was an open parentheses for 
 
 ```[TWITTER](https://twitter.com```
 
@@ -48,7 +48,7 @@ This fixed this symptom errror by adding the parentheses at the end of the line 
 Without fixing the bug, the test file would output an ArrayIndexOutOfBounds exception for us. Here is a screenshot of what the symptom would look like with the failure-inducing input. 
 ![](no paren.png)
 
--3.Another code change that my group and I made to a test file, [breaking2.md](https://github.com/cathyiic/cse15l-labreports/blob/main/breaking%202.md), was adding a bracket to the end of the file name, since the bracket was not closed. The bug once again was because of the code in the MarkdownParse class searching for both the open & close brackets. Since we have the failure-induced input in our breaking2.md file, we get the symptom of getting an error message when we try to run our code. This failure-inducing input causes this error to output this error into our terminal. Our code throws an ArrayIndexOutOfBounds exception for this as well. 
+-**3.** Another code change that my group and I made to a test file, [breaking2.md](https://github.com/cathyiic/cse15l-labreports/blob/main/breaking%202.md), was adding a bracket to the end of the file name, since the bracket was not closed. The bug once again was because of the code in the MarkdownParse class searching for both the open & close brackets. Since we have the failure-induced input in our breaking2.md file, we get the symptom of getting an error message when we try to run our code. This failure-inducing input causes this error to output this error into our terminal. Our code throws an ArrayIndexOutOfBounds exception for this as well. 
 Here is a screenshot of the commit changes that were made to our file to get rid of the symptom. 
 ![](fixed bracket.png)
 Without fixing the bug, the test file would output an ArrayIndexOutOfBounds exception for us. Here is a screenshot of what the symptom would look like with the failure-inducing input. Here is a screenshot of what the symptom would look like with the failure-inducing input. 
