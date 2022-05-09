@@ -22,6 +22,10 @@ Here is also another instance where I use the `scp` command to copy the `Markdow
 Here is where I have my public key stored in my Github and in my user account. I first had to go to my terminal and use the `ssh-keygen` command to create a new key for my Github account. Then, it used the `cat ~/.ssh/id_ed25519.pub` to find the public key and copied that into Github's area for SSH keys. Here is a screenshot of my key in Github.
 ![](pub key.png)
 
+For the private key, that is suppose to be only accessible on my private Mac, so I need to use the `ls -al ~/.ssh` command to view where its stored (but not its contents). (Many of the ssh keys stored are my attempts at trying to complete the first step of this section but the private key is stored here)
+![](private key location.png)
+
+
 
 
 **Copy whole directories with `scp -r`**
