@@ -2,7 +2,7 @@
 
 **Three Code Changes That My Lab Group Worked On**
 
--**1.** One of the first issues that all of my members ran into when we working on Lab 3 was that the MarkdownParse class was throwing an IndexOutOfBounds exception or running an infinite loop. We consulted one of the tutors on this, and she instructed us that the code we wrote for the MarkdownParse class.
+-**1.** One of the first issues that all of my members ran into when we working on Lab 3 was that the MarkdownParse class was throwing an IndexOutOfBounds exception or running an infinite loop when we were testing the [test-file.md](https://github.com/cathyiic/cse15l-labreports/blob/main/test-file.md) file. We consulted one of the tutors on this, and she instructed us that the code we wrote for the MarkdownParse class.
 
 ```
 public class MarkdownParse {
@@ -36,7 +36,8 @@ The issues here was that the code for the MarkdownParse class is faulty, so if o
 Here is a screenshot of where the empty line in the test file was deleted in order to avoid the IndexOutOfBounds exception from my Github commit history.
 ![](space.png)
 Here is also the output symptom of that failure-inducing input that occurs when there is an empty extra line in our test file. 
-!(index out of bounds.png)
+![](index out of bounds.png)
+Therefore, we had to make modification of deleting the empty last line to fix this failure-induced bug.
 
 -**2.** Another code change that we made was if the test file, breaking.md, had an open parentheses. When linking the link in my breaking.md file, [](https://github.com/cathyiic/cse15l-labreports/blob/main/breaking%201.png) there was an open parentheses for 
 

@@ -3,3 +3,5 @@
 **[Week 2 CSE15L Lab Report](https://cathyiic.github.io/cse15l-labreports/report1.html)**
 
 **[Week 4 CSE15L Lab Report](https://cathyiic.github.io/cse15l-labreports/report2.html)**
+
+**[Week 6 CSE15L Lab Report](https://cathyiic.github.io/cse15l-labreports/report3.html)**
