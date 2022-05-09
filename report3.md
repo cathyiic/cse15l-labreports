@@ -25,7 +25,14 @@ Here is where I have my public key stored in my Github and in my user account. I
 For the private key, that is suppose to be only accessible on my private Mac, so I need to use the `ls -al ~/.ssh` command to view where its stored (but not its contents). (Many of the ssh keys stored are my attempts at trying to complete the first step of this section but the private key is stored here)
 ![](private key location.png)
 
+Here is me using the git commands to add, commit with message, and push to my github the new file that I made in a different file (my SKillDemo file). 
+![](git commands.png)
 
+Here is also the commit [history](https://github.com/cathyiic/cse15l-labreports/commit/f4eac68161c2167bd25b1fff0dce08fcaa8299e8) of the new file that I added.
 
 
 **Copy whole directories with `scp -r`**
+
+
+Here is me using the `scp -r . ieng6:markdown-parse` command to copy my whole markdown-parse directory to my ieng6 account. 
+![](copying.png)
