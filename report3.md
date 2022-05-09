@@ -19,7 +19,8 @@ Here is also another instance where I use the `scp` command to copy the `Markdow
 **Setup Github Access from ieng6**
 
 
-Here is where I have my public key stored in my Github and in my user account. 
+Here is where I have my public key stored in my Github and in my user account. I first had to go to my terminal and use the `ssh-keygen` command to create a new key for my Github account. Then, it used the `cat ~/.ssh/id_ed25519.pub` to find the public key and copied that into Github's area for SSH keys. Here is a screenshot of my key in Github.
+![](pub key.png)
 
 
 
