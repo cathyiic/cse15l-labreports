@@ -45,6 +45,10 @@ java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnit
 ![](pt2.png)
 
 Here is is where I combining scp, ;, and ssh to copy the whole directory and run the tests in one line. 
-![](last part.png)
+![](semicolon.png)
+
 I am basically running the same commands as I did above but I am combining them all on one line by using the **";"** to separate each command that would've been on a separate line. 
+
+Here is where I am on my ieng6 account, and I use the `ls` command to check and see that my markdownparse file has copied over successfully with my command.
+![](copied over.png)
 
