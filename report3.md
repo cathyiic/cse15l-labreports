@@ -46,6 +46,7 @@ java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnit
 
 Here is is where I combining scp, ;, and ssh to copy the whole directory and run the tests in one line. 
 ![](semicolon.png)
+There are some errors that due to the code not working properly, so for the assignment, ignore these errors. :)
 
 I am basically running the same commands as I did above but I am combining them all on one line by using the **";"** to separate each command that would've been on a separate line. 
 
