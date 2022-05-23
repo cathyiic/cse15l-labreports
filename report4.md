@@ -8,8 +8,9 @@ The code was worked on with my lab partners and I. We worked on the implementati
 
 The expected output should be 
 `` 
-`google.com, google.com, ucsd.edu
+`[google.com, google.com, ucsd.edu]
 ``
+
 2.
 
 ![](snippet1.png)
@@ -35,7 +36,7 @@ Here is what the test outputs with my code.
 
 The expected output should be 
 ``
-`
+`[a.com, a.com(()), example.com]
 ``
 
 2.
@@ -63,7 +64,7 @@ Here is what the test outputs with my code.
 
 The expected output should be 
 ``
-`
+`[https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule]
 ``
 
 2.
