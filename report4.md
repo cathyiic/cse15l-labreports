@@ -1,18 +1,46 @@
 # Here are the testings and implementations that were made in Week 7
+The code was worked on with my lab partners and I. We worked on the implementations and the creation of the markdownparse class, which we all collaborated on Edna's Repo. Therefore, it is cloned from ednafiles, the repo we all worked on together.
 
 
 **Testing for the first snippet**
 
 ![](snippet1.png)
 
+Here is the test that I made for the first snippet.
+
+![](test1.png)
+
+Here is what the test outputs with my code.
+
+![](output1.png)
+
+
+
 **Testing for the second snippet**
 
 ![](snippet2.png)
+
+Here is the test that I made for the second snippet.
+
+![](test2.png)
+
+Here is what the test outputs with my code.
+
+![](output2.png)
+
 
 
 **Testing for the third snippet**
 
 ![](snippet3.png)
+
+Here is the test that I made for the third snippet.
+
+![](test3.png)
+
+Here is what the test outputs with my code.
+
+![](output3.png)
 
 
 **Answering Some of the Questions**
