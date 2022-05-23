@@ -25,7 +25,7 @@ Here is what the test outputs with my code.
 
 ![](output1.png)
 
-4.
+4. The test did not pass, and JUnit tells us that ucsd.edu wasn't added and url.com is at the front of the list.
 
 
 
@@ -53,8 +53,7 @@ Here is what the test outputs with my code.
 
 ![](output2.png)
 
-4.
-
+4. The test did not pass, and JUnit tells us that the nested parenthesis wasn't added and example.com wasn't included at the end of the list.
 
 
 
@@ -81,7 +80,7 @@ Here is what the test outputs with my code.
 
 ![](output3.png)
 
-4.
+4. The test did not pass, and JUnit tells us that an assertion error was thrown because `links` and `content` were not equal to each other.
 
 
 **Answering Some of the Questions**
