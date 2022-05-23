@@ -4,28 +4,47 @@ The code was worked on with my lab partners and I. We worked on the implementati
 
 **Testing for the first snippet**
 
-1. The expected output should be 
-` 
+1.
+
+The expected output should be 
+`` 
 `google.com, google.com, ucsd.edu
-`
-3. 
+``
+2.
+
 ![](snippet1.png)
 
 Here is the test that I made for the first snippet.
 
 ![](test1.png)
 
+3.
+
 Here is what the test outputs with my code.
 
 ![](output1.png)
+
+4.
+
 
 
 
 **Testing for the second snippet**
 
+1.
+
+The expected output should be 
+``
+`
+``
+
+2.
+
 ![](snippet2.png)
 
 Here is the test that I made for the second snippet.
+
+3.
 
 ![](test2.png)
 
@@ -33,19 +52,35 @@ Here is what the test outputs with my code.
 
 ![](output2.png)
 
+4.
+
+
 
 
 **Testing for the third snippet**
 
+1.
+
+The expected output should be 
+``
+`
+``
+
+2.
+
 ![](snippet3.png)
 
 Here is the test that I made for the third snippet.
+
+3.
 
 ![](test3.png)
 
 Here is what the test outputs with my code.
 
 ![](output3.png)
+
+4.
 
 
 **Answering Some of the Questions**
