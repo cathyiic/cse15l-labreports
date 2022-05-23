@@ -4,6 +4,11 @@ The code was worked on with my lab partners and I. We worked on the implementati
 
 **Testing for the first snippet**
 
+1. The expected output should be 
+` 
+`google.com, google.com, ucsd.edu
+`
+3. 
 ![](snippet1.png)
 
 Here is the test that I made for the first snippet.
