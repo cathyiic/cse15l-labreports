@@ -1,5 +1,7 @@
 # Here are the testings and implementations that were made in Week 7
-The code was worked on with my lab partners and I. We worked on the implementations and the creation of the markdownparse class, which we all collaborated on Edna's Repo. Therefore, it is cloned from ednafiles, the repo we all worked on together.
+The code was worked on with my lab partners and I. We worked on the implementations and the creation of the markdownparse class, which we all collaborated on Edna's Repo. Therefore, it is cloned from ednafiles, the repo we all worked on together. I have copied down the code from Edna's repo since we all worked on her repo rather than our own individual repos. 
+Here is the link to my markdownparse repo: https://github.com/cathyiic/markdown-parser-main-2/tree/main 
+Here is the link to Edna's markdownparse repo: https://github.com/ednavho/ednafiles 
 
 
 **Testing for the first snippet**
