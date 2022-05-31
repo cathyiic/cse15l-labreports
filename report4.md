@@ -2,6 +2,7 @@
 The code was worked on with my lab partners and I. We worked on the implementations and the creation of the markdownparse class, which we all collaborated on Edna's Repo. Therefore, it is cloned from ednafiles, the repo we all worked on together. I have copied down the code from Edna's repo since we all worked on her repo rather than our own individual repos. 
 Here is the link to my markdownparse repo: https://github.com/cathyiic/markdown-parser-main-2/tree/main 
 Here is the link to Edna's markdownparse repo: https://github.com/ednavho/ednafiles 
+Here is the link to my peer's repo: https://github.com/BellaReal/markdown-parser 
 
 
 **Testing for the first snippet**
@@ -27,9 +28,14 @@ Here is what the test outputs with my code.
 
 ![](output1.png)
 
+
 4. The test did not pass, and JUnit tells us that ucsd.edu wasn't added and url.com is at the front of the list.
 
+5.
 
+Here is running my peer's and their output.
+
+![](bella1.png)
 
 
 **Testing for the second snippet**
@@ -57,6 +63,11 @@ Here is what the test outputs with my code.
 
 4. The test did not pass, and JUnit tells us that the nested parenthesis wasn't added and example.com wasn't included at the end of the list.
 
+5.
+
+Here is running my peer's and their output.
+
+![](bella2.png)
 
 
 **Testing for the third snippet**
@@ -83,6 +94,12 @@ Here is what the test outputs with my code.
 ![](output3.png)
 
 4. The test did not pass, and JUnit tells us that an assertion error was thrown because `links` and `content` were not equal to each other.
+
+5.
+
+Here is running my peer's and their output.
+
+![](bella3.png)
 
 
 **Answering Some of the Questions**
