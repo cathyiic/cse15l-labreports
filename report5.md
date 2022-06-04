@@ -27,6 +27,7 @@ Here is the link for the second test file that I chose to work with, [387.md](ht
 Here is the output after running the `vimdiff` command and comparing the different outputs. The left is the TA's and the right is mine.
 
 ![](diff2.png)
-Both of ours had the same output after running vimdiff. However, the issue is that this test file uses two underscores. In markdown syntax, using two underlines means that the text will be bolded and italized. However, our text is not bolded or italized 
-пристаням__стремятся__
+Both of ours had the same output after running vimdiff. However, the issue is that this test file uses two underscores. In markdown syntax, using two underlines means that the text will be bolded and italized. However, in `пристаням__стремятся__`, the `стремятся` portion is not bolded or italized. Therefore, that means there is a bug in both our implementations.
 
+![](prob2.png)
+The issue with this test file this time is that it isn't complete with all of the cases that are possible in all of markdown. Therefore, the bug is that we have to write a portion of the code that is also going to look for the underscore pairs and make sure that the underscores work like the open and close brackets do. But the underscores have to count to make sure that there are pairs and that there are two or more pairs of underscores. 
